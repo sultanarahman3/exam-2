@@ -1,0 +1,75 @@
+
+/*header section end*/
+.contact {
+    margin-top: 0px;
+    padding: 90px 0px;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.contact_1 {
+    width: 100%;
+    height: 200px;
+    margin: auto;
+    background: linear-gradient(#8096ff,#64bafc);
+
+
+}
+h1 {
+    /* text-align: center; */
+    /* font-size: 22px; */
+    color: white;
+
+    font-size: 48px;
+    font-weight: 600;
+    margin: auto;
+    
+}
+p {
+    margin-top: 0px;
+    margin-bottom: 10px;
+   
+    color: black;
+}
+.contact_1 a {
+    
+        color:white;
+        font-weight: 300;
+        font-size: 20px;
+        text-decoration: none;
+}
+span {
+    color: white;
+}
+.map {
+    margin-top: 80px;
+}
+.form {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* background: red; */
+    padding: 10px;
+    grid-column-gap: 82px;
+    grid-row-gap: 36px;
+    flex-wrap: wrap;
+}
+.i {
+    margin-top: 31px;
+    font-size: 40px;
+    /* color: white; */
+}
+td input {
+    padding: 20px 20px;
+}
+td i {
+    font: 20px;
+}
+button {
+    padding: 10px 10px;
+    background-color: #8096ff;
+    color: white;
+    float: right;
+  margin-right: 250px;
+    border: none;
+}

@@ -1,0 +1,184 @@
+/*  Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .box{
+       background-color: red;
+
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+.logo {
+    width: 22%;
+    float: left;
+    /* border: 1px solid red; */
+    margin-top: 30px;
+}
+
+.img_1 {
+    width: 75%;
+    /* border: 1px solid blue; */
+    overflow: hidden;
+    float: right;
+    padding-top: 40px;
+    padding-right: 130px;
+}
+.img_1 img {
+    width: 90%
+}
+nav {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    /* float: right; */
+    /* border: 1px solid blue; */
+
+}
+ul li {
+    float: left;
+    margin: 13px 10px;
+    font-size: 13px;
+    text-align: center;
+    list-style-type: none;
+}
+.details {
+    margin-top: 140px;
+}
+.about {
+    width: 100%;
+    margin-top: 150px;
+    /* display: flex; */
+
+
+
+}
+
+
+.img_2 {
+   
+        width: 100%;
+        /* border: 1px solid red; */
+        padding-right: 0px;
+        float: right;
+        margin-top: 45px;
+    }
+
+.p_1 {
+    margin-left: 25px;
+    padding-left: 114px;
+    margin-right: 43px;
+}
+
+.h_2 {
+    padding-left: 43px;
+    /* padding-top: 0px; */
+    /* margin: auto; */
+    align-items: center;
+    margin-top: 0px;
+    margin-left: -25px;
+    color: #222222;
+    font-size: 28px;
+}
+
+.p_1 {
+    margin-left: 22px;
+    padding-left: 0px;
+    margin-right: 227px;
+    font-size: 13px;
+}
+
+span {
+    margin-left: 16px;
+    padding-left: 29px;
+}
+.details_2 {
+    width: 100%;
+    /* border: 1px solid black; */
+    /* overflow: hidden; */
+    line-height: 1.5;
+    font-size: 12px;
+    margin-left: 5px;
+    padding-top: 31px;
+    height: 377px;
+    margin-right: 211px;
+}
+
+.footer_1 {
+    display: grid;
+    grid-template-columns: auto;
+    grid-column-gap: 39px;
+    grid-row-gap: 9px;
+    flex-wrap: wrap;
+    margin: 10px 95px;
+    font-size: 12px;
+}
+p {
+    color: #8c8c8f;
+    width: 143px;
+}
+}
+
+
+
+/*  Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+ 
+.details {
+        width: 100%;
+        margin-top: 216px;
+    }
+.img_1{
+    width: 100%;
+}
+/* header */
+.header {
+    width: 60%;
+    margin: 0px 0px 0px 60px;
+}
+.about {
+    display: block;
+}
+img {
+    width: 217%;
+}
+.h_2 {
+    padding-left: 60px;
+    /* padding-top: 0px; */
+    margin: auto;
+    align-items: center;
+    margin-top: 0px;
+    /* margin-left: 150px; */
+    color: #222222;
+    font-size: 40px;
+}
+.p_1 {
+    margin-left: 1px;
+    padding-left: 106px;
+}
+span {
+    margin-left: 2px;
+    padding-left: 52px;
+}
+
+
+.footer_1 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 16px;
+    grid-row-gap: -5px;
+    flex-wrap: wrap;
+    margin: 26px 20px;
+}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+   .box{
+       background-color: rgb(178, 45, 188);
+
+}
+
+}
+
